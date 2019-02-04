@@ -1,0 +1,30 @@
+.c-avatar{
+  padding: 1.5em;
+  div{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.42);
+    position: relative;
+    margin-bottom: $unit;
+
+    &::after{
+      content: '';
+      display: block;
+      background: $color-light;
+      height: 4px;
+      width: 60px;
+      margin: 0 auto;
+    }
+  }
+
+  img{
+    object-fit: contain;
+    background: #cecece;
+  }
+
+
+}
