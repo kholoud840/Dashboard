@@ -151,6 +151,45 @@ img {
     .c-nav__item svg path, .c-nav__item use path {
       fill: red; }
 
+.c-detail {
+  padding: 1em;
+  padding: 1em calc(50% - 750px); }
+
+.c-card {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); }
+
+.c-header {
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ccc; }
+  .c-header h1 {
+    font-size: 20px; }
+
+.c-button {
+  padding-left: 30px;
+  border-left: 2px solid #CCC;
+  /*&::before{
+    content: '';
+    display: block;
+    height: 30px;
+    width: 3px;
+    position: absolute;
+    left: -32px;
+    top: 3px;
+    border-radius: 8px;
+    background: #000;
+  } */ }
+  .c-button a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    color: #fff;
+    border-radius: 20px;
+    background: #04c366; }
+
 .u-offset-bottom {
   padding-bottom: 16px; }
 

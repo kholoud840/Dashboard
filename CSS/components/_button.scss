@@ -1,0 +1,26 @@
+.c-button{
+  padding-left: 30px;
+  border-left: 2px solid #CCC;
+
+  //position: relative;
+  //margin-left: 32px;
+  a{
+    display: inline-block;
+    padding: 0.5em 1em;
+    color:#fff;
+    border-radius: 20px;
+    background: $color-primary;
+  }
+
+  /*&::before{
+    content: '';
+    display: block;
+    height: 30px;
+    width: 3px;
+    position: absolute;
+    left: -32px;
+    top: 3px;
+    border-radius: 8px;
+    background: #000;
+  } */
+}
