@@ -66,8 +66,39 @@ img {
   max-width: 100%;
   height: auto; }
 
+.u-offset-bottom {
+  padding-bottom: 16px; }
+
+.u-border-bottom {
+  border-bottom: 1px solid #eee; }
+
+.u-padding {
+  padding: 1em; }
+
+.u-text-center {
+  text-align: center; }
+
+.u-border-right {
+  border-right: 1px solid #eee; }
+
 .o-flex {
   display: flex; }
+
+.o-flex-column {
+  flex-direction: column; }
+
+.o-flex-1 {
+  flex: 1; }
+
+.o-grid {
+  display: grid; }
+
+.o-grid--2 {
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 64px; }
+
+.o-grid--3 {
+  grid-template-columns: repeat(3, 1fr); }
 
 .c-detail {
   background: #efefef;
@@ -98,7 +129,7 @@ img {
     margin-bottom: 16px; }
 
 .c-master__info__link {
-  color: #04c366; }
+  color: #0b904f; }
 
 .c-avatar {
   padding: 1.5em; }
@@ -140,7 +171,7 @@ img {
       display: block;
       width: 4px;
       height: 33px;
-      background: #04c366;
+      background: #0b904f;
       position: absolute;
       left: 0;
       top: 1px;
@@ -153,12 +184,40 @@ img {
 
 .c-detail {
   padding: 1em;
-  padding: 1em calc(50% - 750px); }
+  padding: 1em calc(50% - 550px); }
 
 .c-card {
   background: #fff;
   border-radius: 4px;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); }
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); }
+
+.c-card__heading {
+  justify-content: space-between;
+  align-items: center; }
+  .c-card__heading h2 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 4px; }
+  .c-card__heading span {
+    display: inline-block;
+    padding: 0.2em 1em;
+    margin-right: -36px;
+    background: #84d66f;
+    border-radius: 20px;
+    color: #fff; }
+
+.c-card__feature {
+  font-weight: bold;
+  margin-bottom: 8px; }
+
+.c-card__amount {
+  color: #fdb409;
+  margin-bottom: 8px;
+  font-size: 22px;
+  font-weight: bold; }
+
+.c-card__details {
+  font-size: 12px; }
 
 .c-header {
   justify-content: space-between;
@@ -188,9 +247,29 @@ img {
     padding: 0.5em 1em;
     color: #fff;
     border-radius: 20px;
-    background: #04c366; }
+    background: #0b904f; }
 
-.u-offset-bottom {
-  padding-bottom: 16px; }
+.c-section {
+  padding-bottom: 32px;
+  padding-top: 32px; }
+
+.c-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0b904f;
+  margin: 0 auto;
+  margin-bottom: 8px; }
+
+.c-icon--bordered {
+  background: #fff;
+  border: 2px solid #0b904f; }
+
+.c-icon--filled {
+  background: #0b904f;
+  border-color: #0b904f; }
 
 /*# sourceMappingURL=main.css.map */

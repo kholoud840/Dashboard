@@ -1,0 +1,21 @@
+.c-icon{
+  width:70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $color-primary;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+
+.c-icon--bordered{
+  background: #fff;
+  border:2px solid $color-primary;
+}
+
+.c-icon--filled{
+  background: $color-primary;
+  border-color: $color-primary;
+}

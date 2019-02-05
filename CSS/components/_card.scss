@@ -1,5 +1,40 @@
 .c-card{
   background:#fff;
   border-radius: 4px;
-  box-shadow: 0 0 10px rgba(255,255,255,0.3);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.c-card__heading{
+  justify-content: space-between;
+  align-items: center;
+
+  h2{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: $unit-tiny;
+  }
+
+  span{
+    display: inline-block;
+    padding: 0.2em 1em;
+    margin-right: -36px;
+    background: $color-secondary;
+    border-radius: 20px;
+    color: #fff;
+  }
+}
+
+.c-card__feature{
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.c-card__amount{
+  color:$color-brand-secondary;
+  margin-bottom: 8px;
+  font-size:22px;
+  font-weight: bold;
+}
+.c-card__details{
+  font-size: 12px;
 }
